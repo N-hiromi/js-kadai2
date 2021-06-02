@@ -1,0 +1,14 @@
+form{
+  background-color:black;
+  width:160px;
+}
+input{
+  width:30px;
+  height:30px;
+  margin:0px 2px 8px 3px;
+}
+#text{
+  width:103px;
+  height:20px;
+  margin-top:4px;
+}

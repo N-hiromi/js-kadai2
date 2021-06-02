@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>電卓</title>
+        <link rel="stylesheet" href="js-kadai2.css">
+      </head>
+      <body>
+        <form>
+              
+              <input type="text" id="text" value="0">
+              <input type="button" value="+" onclick="myCalculate('+')"></br>
+              <input size ="30px" type="button" value="9" onclick="myValue(9)">
+              <input type="button" value="8" onclick="myValue(8)">
+              <input type="button" value="7" onclick="myValue(7)">
+              <input type="button" value="-" onclick="myCalculate('*')"></br>
+              <input type="button" value="6" onclick="myValue(6)">
+              <input type="button" value="5" onclick="myValue(5)">
+              <input type="button" value="4" onclick="myValue(4)">
+              <input type="button" value="×" onclick="myCalculate('*')"></br>
+              <input type="button" value="3" onclick="myValue(3)">
+              <input type="button" value="2" onclick="myValue(2)">
+              <input type="button" value="1" onclick="myValue(1)">
+              <input type="button" value="/" onclick="myCalculate('/')"></br>
+              <input type="button" value="0" onclick="myValue(0)" id="zero">
+              <input type="button" value="・" onclick="myValue('.')">
+              <input type="button" value="AC" onclick="myC()">
+              <input type="button" value="＝" onclick="myCalculate('=')"></br>
+        </form>
+        <script src="js-kadai2.js"></script>
+      </body>
+    </html>
